@@ -1,0 +1,18 @@
+# Arquivos de bytecode Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ambiente virtual
+venv/
+.env/
+
+# Arquivos de configuração IDE
+.vscode/
+.idea/
+
+# Arquivos de dependências
+*.egg-info/
+dist/
+build/
