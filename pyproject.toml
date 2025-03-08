@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ooputil"
-version = "0.1.4"
+version = "0.2.4"
 description = "Library for OOP utilities"
 authors = [{ name = "Rafael da Rocha Ferreira", email = "programadorlhama@gmail.com" }]
 license = { text = "MIT" }
