@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ooputil"
-version = "0.1.0"
+version = "0.1.4"
 description = "Library for OOP utilities"
 authors = [{ name = "Rafael da Rocha Ferreira", email = "programadorlhama@gmail.com" }]
 license = { text = "MIT" }
@@ -17,8 +17,4 @@ Homepage = "https://github.com/programadorLhama/ooputil.git"
 Repository = "https://github.com/programadorLhama/ooputil.git"
 
 [tool.setuptools.packages.find]
-where = ["ooputil"]
-
-[dynamic]
-# Esse campo agora é dinâmico
-requires-python = ">=3.6"
+include = ["ooputil", "ooputil.*"]

@@ -1,13 +1,13 @@
 # setup.py
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name="ooputil",
-    version="0.1.0",
+    version="0.1.4",
     description="Library for OOP utilities",
     author="Rafael da Rocha Ferreira",
     author_email="programadorlhama@gmail.com",
-    packages=["ooputil"],
+    packages=find_packages(include=["ooputil", "ooputil.*"]),
     install_requires=[],
     classifiers=[
         "Programming Language :: Python :: 3",
